@@ -85,7 +85,7 @@ p {
 	background-color: rgba(42, 42, 42, .42);
 	word-spacing: 1px;
 	line-height: 15px;
-	z-index: 1;
+	z-index: 10;
 	cursor: pointer;
 	padding: 0.25rem;
 }
@@ -94,6 +94,21 @@ p {
 	line-height: 30px;
 	font-size: 30px;
 	margin: auto 0.25rem;
+}
+
+.index {
+	z-index: 11;
+	background-color: rgba(42, 42, 42, .42);
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	padding: 1rem;
+	width: 100%;
+	margin: 0.25rem auto;
+}
+
+.index a {
+	display: block;
 }
 
 #animation-section {

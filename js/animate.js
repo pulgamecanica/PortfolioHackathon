@@ -86,13 +86,13 @@ const timeline = [
 		bunnyAnimation: [0, 1]
 	},
 	{
-		easterConversation: ["Good Bye Have Fun!!!"],
+		easterConversation: ["Project TimeLine!!!"],
 		story: [" \
 <div class=\"timeline\"> \
   <div class=\"container left\"> \
     <div class=\"timeline-content\"> \
       <h2>1</h2> \
-      <p>Desition Making, choose your stack and do a mockup of the result.</p> \
+      <p>Decision Making, choose your stack and do a mockup of the result.</p> \
     </div> \
   </div> \
   <div class=\"container right\"> \
@@ -117,6 +117,12 @@ const timeline = [
 		"],
 		maxTime: null,
 		bunnyAnimation: [2, 2]
+	},
+	{
+		easterConversation: ["Index & Resources."],
+		story: ["<span class=\"index round\"><a href=\"index.html\">Home</a><a href=\"./hackathon.html\">Start Over</a></span><hr><span class=\"index round\"><a href=\"\">Tutorial 42API</a></span>"],
+		maxTime: null,
+		bunnyAnimation: [2, 3]
 	}
 ];
 
