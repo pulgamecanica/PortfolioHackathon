@@ -120,7 +120,7 @@ const timeline = [
 	},
 	{
 		easterConversation: ["Index & Resources."],
-		story: ["<span class=\"index round\"><a href=\"index.html\">Home</a><a href=\"./hackathon.html\">Start Over</a></span><hr><span class=\"index round\"><a href=\"\">Tutorial 42API</a></span>"],
+		story: ["<span class=\"index round\"><a href=\"index.html\">Home</a><a href=\"./hackathon.html\">Start Over</a></span><hr><span class=\"index round\"><a href=\"https://pulgamecanica.herokuapp.com/posts/42api-projects\">Tutorial 42API</a></span>"],
 		maxTime: null,
 		bunnyAnimation: [2, 3]
 	}
