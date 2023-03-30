@@ -19,20 +19,6 @@ function animateBunny(x, y) {
  **/
 function animateAction(x, y) {
 	animateBunny(100 * x, 133.3 * y);
-//	animateBunny(100 * 0, 0);
-//	animateBunny(100 * 1, 0);
-//	animateBunny(100 * 2, 0);
-//	animateBunny(100 * 3, 0);
-
-//	animateBunny(100 * 0, 133.3 * 1);
-//	animateBunny(100 * 1, 133.3 * 1);
-//	animateBunny(100 * 2, 133.3 * 1);
-//	animateBunny(100 * 3, 133.3 * 1);
-
-//	animateBunny(100 * 0, 133.3 * 2);
-//	animateBunny(100 * 1, 133.3 * 2);
-//	animateBunny(100 * 2, 133.3 * 2);
-//	animateBunny(100 * 3, 133.3 * 2);
 }
 
 const fast = new Date();
