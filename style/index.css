@@ -65,7 +65,6 @@ body {
 	min-height: 90vh;
 	padding: 1rem;
 }
-
 .content-top {
 	align-items: flex-start !important;
 	justify-content: flex-start !important;
@@ -89,7 +88,6 @@ p {
 	cursor: pointer;
 	padding: 0.25rem;
 }
-
 .text .subtitle {
 	line-height: 30px;
 	font-size: 30px;
@@ -106,7 +104,6 @@ p {
 	width: 100%;
 	margin: 0.25rem auto;
 }
-
 .index a {
 	display: block;
 }
@@ -120,7 +117,6 @@ p {
 	background-color: rgba(225, 200, 240, 0.9);
 	border-radius: 50%;
 }
-
 #animation-section #easter-animation {
   /* SPRITE IS 166x125*/
   position: absolute;
@@ -139,11 +135,9 @@ p {
 	background-color: white;
 	cursor: pointer;
 }
-
 #easter-conversation * {
 	color: black;
 }
-
 #easter-conversation::after {
 	z-index: -1;
     content:'';
@@ -163,7 +157,6 @@ p {
 	left: 50%;
 	transform: translateX(-50%);
 }
-
 #actions * {
 	cursor: pointer;
 	color: darkblue;
@@ -177,7 +170,6 @@ p {
 	width: 300px;
 	height: 300px;
 }
-
 .images-collage img {
 	position: absolute;
 	top: 0;
@@ -203,19 +195,15 @@ p {
 	transform: rotate(35deg);
 }
 
-/* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
   margin: 0 auto;
 }
-
 .timeline * {
 	font-size: 15px;
 	margin: 0;
 	color: black;
 }
-
-/* The actual timeline (the vertical ruler) */
 .timeline::after {
 	content: '';
 	position: absolute;
@@ -226,16 +214,12 @@ p {
 	left: 50%;
 	margin-left: -3px;
 }
-
-/* Container around content */
 .container {
 	padding: 10px 40px;
 	position: relative;
 	background-color: inherit;
 	width: 50%;
 }
-
-/* The circles on the timeline */
 .container::after {
 	content: '';
 	position: absolute;
@@ -248,18 +232,12 @@ p {
 	border-radius: 50%;
 	z-index: 1;
 }
-
-/* Place the container to the left */
 .left {
 	left: 0;
 }
-
-/* Place the container to the right */
 .right {
 	left: 50%;
 }
-
-/* Add arrows to the left container (pointing right) */
 .left::before {
 	content: " ";
 	height: 0;
@@ -272,8 +250,6 @@ p {
 	border-width: 10px 0 10px 10px;
 	border-color: transparent transparent transparent white;
 }
-
-/* Add arrows to the right container (pointing left) */
 .right::before {
 	content: " ";
 	height: 0;
@@ -286,13 +262,9 @@ p {
 	border-width: 10px 10px 10px 0;
 	border-color: transparent white transparent transparent;
 }
-
-/* Fix the circle for containers on the right side */
 .right::after {
 	left: -16px;
 }
-
-/* The actual content */
 .timeline-content {
 	display: flex;
 	padding: 20px 30px;

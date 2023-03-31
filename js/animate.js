@@ -21,6 +21,22 @@ function animateAction(x, y) {
 	animateBunny(100 * x, 133.3 * y);
 }
 
+/*
+ * Bunny Animations 
+ * every time that next
+ * is clicked, or prev
+ * the update function
+ * will be called every
+ * time.
+ *
+ * In the future I can
+ * implement something
+ * like random animations
+ * when the user clicks
+ * inside the container
+ * or something like that.
+ */
+
 const fast = new Date();
 fast.setSeconds(5);
 const meddium = new Date();
