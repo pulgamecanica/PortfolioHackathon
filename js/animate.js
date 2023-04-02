@@ -82,10 +82,16 @@ const timeline = [
 		bunnyAnimation: [1, 0]
 	},
 	{
-		easterConversation: ["When you finish please provide a link to your repository <b><a href=\"#\">here</a></b>."],
+		easterConversation: ["When you finish please provide a link to your repository <b>on the next slide</b>."],
 		story: ["<img src=\"assets/images/baby-scream-yeah.gif\">"],
 		maxTime: null,
 		bunnyAnimation: [0, 1]
+	},
+	{
+		easterConversation: ["Form"],
+		story: ["<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSeXeBQOaxdwN3cUc6hbHBmxcOTcPcw2UPVwTpX8AMK92nT7sg/viewform?embedded=true\" width=\"640\" height=\"999\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\" style=\"overflow: scroll; background-color: white;z-index: 1; position: relative; max-height: 500px !important; border-radius: 0.5rem;\">Cargando…</iframe>"],
+		maxTime: null,
+		bunnyAnimation: [2, 2]
 	},
 	{
 		easterConversation: ["Project TimeLine!!!"],
@@ -118,7 +124,7 @@ const timeline = [
 </div> \
 		"],
 		maxTime: null,
-		bunnyAnimation: [2, 2]
+		bunnyAnimation: [1, 2]
 	},
 	{
 		easterConversation: ["Index & Resources."],
